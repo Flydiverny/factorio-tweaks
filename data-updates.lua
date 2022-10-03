@@ -39,3 +39,6 @@ end
 --   -- data.raw.recipe['railway-motor-car-boat_engine'].enabled = false
 -- end
 
+if mods["space-exploration"] then
+  data.raw["underground-belt"]["se-space-underground-belt"].max_distance = data.raw["underground-belt"]["express-underground-belt"].max_distance
+end
