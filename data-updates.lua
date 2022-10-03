@@ -34,6 +34,8 @@ if mods["deadlock-beltboxes-loaders"] then
   }
 end
 
-data.raw.recipe['railway-motor-car-cargo_ship_engine'].enabled = false
-data.raw.recipe['railway-motor-car-boat_engine'].enabled = false
+-- if mods["cargo-ships"] then
+--   -- data.raw.recipe['railway-motor-car-cargo_ship_engine'].enabled = false
+--   -- data.raw.recipe['railway-motor-car-boat_engine'].enabled = false
+-- end
 

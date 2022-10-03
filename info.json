@@ -1,18 +1,20 @@
 {
   "name": "flydiverny-tweaks",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "title": "Tweaks for Flydiverny",
   "author": "Flydiverny",
   "homepage": "https://github.com/Flydiverny/factorio-tweaks",
   "dependencies": [
     "base >= 1.1.0",
+    "flib >= 0.11.0",
     "? space-exploration",
     "? StorageTank2",
     "? miniloader",
     "? deadlock-beltboxes-loaders",
     "? railway-motor-car",
     "? railway-motor-car-fork",
-    "? angelsaddons-mobility"
+    "? angelsaddons-mobility",
+    "? space-exploration-postprocess"
   ],
   "description": "Random mod tweaks by Flydiverny for private servers.",
   "factorio_version": "1.1"
