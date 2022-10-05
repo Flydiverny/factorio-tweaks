@@ -17,7 +17,7 @@ local ducts = {
 
 local function allow_in_space(entity_map)
   for entity_type, entities in pairs(entity_map) do
-    for entity in pairs(entities) do
+    for i, entity in pairs(entities) do
       if data.raw[entity_type][entity] then
         data.raw[entity_type][entity].se_allow_in_space = true
       else
