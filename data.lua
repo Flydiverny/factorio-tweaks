@@ -18,7 +18,11 @@ local ducts = {
 local function allow_in_space(entity_map)
   for entity_type, entities in pairs(entity_map) do
     for entity in pairs(entities) do
-      data.raw[entity_type][entity].se_allow_in_space = true
+      if data.raw[entity_type][entity] then
+        data.raw[entity_type][entity].se_allow_in_space = true
+      else
+        log("[FLYTWEAKS] Warning: " .. entity_type .. " / " .. entity .. " doesnt exist")
+      end
     end
   end
 end
