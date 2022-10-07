@@ -30,3 +30,7 @@ end
 if mods["FluidMustFlow"] then
   allow_in_space(ducts)
 end
+
+-- MAX TTL, https://lua-api.factorio.com/latest/LuaEntity.html#LuaEntity.time_to_live
+-- Keep corpses around
+data.raw["character-corpse"]["character-corpse"].time_to_live = 4294967295
