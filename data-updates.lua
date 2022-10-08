@@ -41,4 +41,6 @@ end
 
 if mods["space-exploration"] then
   data.raw["underground-belt"]["se-space-underground-belt"].max_distance = data.raw["underground-belt"]["express-underground-belt"].max_distance
+  data.raw["pipe-to-ground"]["se-space-pipe-to-ground"].max_distance =
+    data.raw["pipe-to-ground"]["pipe-to-ground"].max_distance
 end

@@ -34,3 +34,9 @@ end
 -- MAX TTL, https://lua-api.factorio.com/latest/LuaEntity.html#LuaEntity.time_to_live
 -- Keep corpses around
 data.raw["character-corpse"]["character-corpse"].time_to_live = 4294967295
+
+--- Increase distance for underground belts
+data.raw["underground-belt"]["express-underground-belt"].max_distance = 14
+
+--- Increase distance for underground pipes
+data.raw["pipe-to-ground"]["pipe-to-ground"].max_distance = 14
