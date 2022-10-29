@@ -39,4 +39,5 @@ data.raw["character-corpse"]["character-corpse"].time_to_live = 4294967295
 data.raw["underground-belt"]["express-underground-belt"].max_distance = 14
 
 --- Increase distance for underground pipes
-data.raw["pipe-to-ground"]["pipe-to-ground"].max_distance = 14
+data.raw["pipe-to-ground"]["pipe-to-ground"].fluid_box.pipe_connections[2].max_underground_distance = 14
+data.raw["pipe-to-ground"]["se-space-pipe-to-ground"].fluid_box.pipe_connections[2].max_underground_distance = 14

@@ -41,6 +41,10 @@ end
 
 if mods["space-exploration"] then
   data.raw["underground-belt"]["se-space-underground-belt"].max_distance = data.raw["underground-belt"]["express-underground-belt"].max_distance
-  data.raw["pipe-to-ground"]["se-space-pipe-to-ground"].max_distance =
-    data.raw["pipe-to-ground"]["pipe-to-ground"].max_distance
+  data.raw["pipe-to-ground"]["se-space-pipe-to-ground"].fluid_box.pipe_connections[2].max_underground_distance =
+    data.raw["pipe-to-ground"]["pipe-to-ground"].fluid_box.pipe_connections[2].max_underground_distance
+end
+
+if mods["se-space-trains"] then
+  data.raw["fluid-wagon"]["space-fluid-wagon"].capacity = 100000
 end

@@ -1,6 +1,6 @@
 {
   "name": "flydiverny-tweaks",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "title": "Tweaks for Flydiverny",
   "author": "Flydiverny",
   "homepage": "https://github.com/Flydiverny/factorio-tweaks",
@@ -8,6 +8,7 @@
     "base >= 1.1.0",
     "flib >= 0.11.0",
     "? space-exploration",
+    "? se-space-trains",
     "? StorageTank2",
     "? miniloader",
     "? deadlock-beltboxes-loaders",
