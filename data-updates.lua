@@ -47,4 +47,19 @@ end
 
 if mods["se-space-trains"] then
   data.raw["fluid-wagon"]["space-fluid-wagon"].capacity = 100000
+
+  data.raw["fluid-wagon"]["space-fluid-wagon"].weight = 3906
+  -- data.raw["fluid-wagon"]["space-fluid-wagon"].air_resistance = 0.0005
+  data.raw["fluid-wagon"]["space-fluid-wagon"].max_speed = 2.65
+  -- data.raw["fluid-wagon"]["space-fluid-wagon"].friction_force = 0.30
+
+  data.raw["cargo-wagon"]["space-cargo-wagon"].weight = 3906
+  -- data.raw["cargo-wagon"]["space-cargo-wagon"].air_resistance = 0.0005
+  data.raw["cargo-wagon"]["space-cargo-wagon"].max_speed = 2.65
+  -- data.raw["cargo-wagon"]["space-cargo-wagon"].friction_force = 0.30
+
+  data.raw["locomotive"]["space-locomotive"].weight = 5859
+  -- data.raw["locomotive"]["space-locomotive"].air_resistance = 0.0005
+  data.raw["locomotive"]["space-locomotive"].max_speed = 2.65
+  -- data.raw["locomotive"]["space-locomotive"].friction_force = 0.30
 end
